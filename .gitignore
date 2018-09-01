@@ -1,3 +1,5 @@
 spring-cloud-demo.iml
 .idea/**
 *.iml
+target
+*/target
