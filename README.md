@@ -9,6 +9,9 @@ spring cloud 学习示例
     serice-feign 服务消费者和注册者(集成了ribbon)
     service-zuul Zuul的主要功能是路由转发和过滤器(类似nginx proxy_pass配置)
     config-server 配置中心服务器
+    config-client 配置中心客户端使用示例
+    
+    spring-cloud-eureka  初版的eureka-server项目
 
 ## 参考文档
 - CSDN专栏汇总：史上最简单的 SpringCloud 教程 https://blog.csdn.net/forezp/article/details/70148833/
