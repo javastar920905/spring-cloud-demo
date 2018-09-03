@@ -12,6 +12,18 @@ spring cloud 学习示例
     config-client 配置中心客户端使用示例
     
     spring-cloud-eureka  初版的eureka-server项目
+    
+ 组件的配合使用:
+ 
+     eureka-server 为注册中心,config-server 配置中心()
+     其他的所有service 都可以从配置中心读取配置,都可以向注册中心注册服务
+     service-zuul 作为一个网关服务(将请求分配到其他service  /api-a/**,/api-b/**)
+     
+ 服务的高可用: 
+ 
+     注册中心高可用:...
+     配置中心高可用: config-server 服务注册到注册中心,config-client 配置中心的servieId，即服务名(读取配置文件不再写ip地址，而是服务名)
+     
 
 ## 参考文档
 - CSDN专栏汇总：史上最简单的 SpringCloud 教程 https://blog.csdn.net/forezp/article/details/70148833/
