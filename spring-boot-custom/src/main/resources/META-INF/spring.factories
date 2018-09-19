@@ -1,0 +1,5 @@
+#inititalizer
+org.springframework.context.ApplicationContextInitializer=com.javastar920905.springbootcustom.initializer.CustomApplicationContextInititalizer
+
+#listener
+org.springframework.context.ApplicationListener=com.javastar920905.springbootcustom.listener.CustomApplicationListner

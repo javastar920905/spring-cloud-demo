@@ -2,6 +2,9 @@
 spring cloud 学习示例
 各个子项目的使用,参考各个子项目的readme
 
+# 小工具
+在线生成banner http://www.bootschool.net/ascii
+
 # 子项目介绍
     eureka-server 启动一个注册中心(相当于zookeeper等)
     eureka-client 向注册中心注册服务(service提供者)
