@@ -24,7 +24,7 @@ spring cloud 学习示例
     eureka-server 启动一个注册中心(相当于zookeeper等)
     eureka-client 向注册中心注册服务(service提供者)
     ribbon-comsumer 服务消费者和注册者(通过restTemplate调用service 服务)
-    serice-feign 服务消费者和注册者(集成了ribbon)
+    serice-feign 服务消费者和注册者(集成了ribbon,更好的rpc选择)
     service-zuul Zuul的主要功能是路由转发和过滤器(类似nginx proxy_pass配置)
     config-server 配置中心服务器
     config-client 配置中心客户端使用示例
