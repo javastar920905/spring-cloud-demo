@@ -12,8 +12,8 @@ spring cloud 学习示例
 [spring-cloud-ribbon](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-ribbon)
 
 [springcloud ribbon with eureka](http://blog.csdn.net/liaokailin/article/details/51469834)
-
-
+### Feign 采用的是基于接口的注解,Feign 整合了ribbon(更简单)
+[spring-cloud-feign](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-feign)
 
 
 
