@@ -25,6 +25,20 @@ spring cloud 学习示例
 ### 配置中心...todo(有道雲筆記)
 [spring_cloud_config](http://projects.spring.io/spring-cloud/spring-cloud.html#_spring_cloud_config)
 
+### todo Spring Cloud Bus
+[Spring Cloud Bus](https://www.fangzhipeng.com/springcloud/2017/06/08/sc08-bus.html)
+依賴 rabbitmq
+
+### todo  Spring Cloud Sleuth
+服务追踪组件zipkin，Spring Cloud Sleuth集成了zipkin组件
+[Spring Cloud Sleuth-博客](https://www.fangzhipeng.com/springcloud/2017/06/09/sc09-sleuth.html)
+
+[spring-cloud-sleuth](https://github.com/spring-cloud/spring-cloud-sleuth)
+
+[利用Zipkin对Spring Cloud应用进行服务追踪分析](https://yq.aliyun.com/articles/60165)
+
+[Spring Cloud Sleuth使用简介](http://blog.csdn.net/u010257992/article/details/52474639)
+
 
 # 小工具
 在线生成banner http://www.bootschool.net/ascii
