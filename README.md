@@ -8,13 +8,22 @@ spring cloud 学习示例
 [springcloud eureka server 官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-eureka-server)
 
 [springcloud eureka client 官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html#_service_discovery_eureka_clients)
+
 ### 服务与服务的通讯，基于http restful
 [spring-cloud-ribbon](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-ribbon)
 
 [springcloud ribbon with eureka](http://blog.csdn.net/liaokailin/article/details/51469834)
+
 ### Feign 采用的是基于接口的注解,Feign 整合了ribbon(更简单)
 [spring-cloud-feign](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-feign)
 
+### 熔断器
+[查看分支spring-cloud-hystrix](https://github.com/javastar920905/spring-cloud-demo/tree/spring-cloud-hystrix)
+### zuul 路由和過濾器驗證(nginx) 
+[router_and_filter_zuul](http://projects.spring.io/spring-cloud/spring-cloud.html#_router_and_filter_zuul)
+
+### 配置中心...todo(有道雲筆記)
+[spring_cloud_config](http://projects.spring.io/spring-cloud/spring-cloud.html#_spring_cloud_config)
 
 
 # 小工具
