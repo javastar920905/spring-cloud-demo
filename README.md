@@ -39,6 +39,18 @@ spring cloud 学习示例
 
 [Spring Cloud Sleuth使用简介](http://blog.csdn.net/u010257992/article/details/52474639)
 
+### 服务注册中心高可用
+[high_availability_zones](http://projects.spring.io/spring-cloud/spring-cloud.html#_high_availability_zones_and_regions)
+
+### Spring Cloud Gateway
+[Spring Cloud Gateway](https://spring.io/guides/gs/gateway)
+
+
+
+### docker,docker-compose 编排服务
+[docker部署springcloud工程](https://www.fangzhipeng.com/springcloud/2017/06/11/sc11-docker.html)
+
+
 
 # 小工具
 在线生成banner http://www.bootschool.net/ascii
