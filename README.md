@@ -15,6 +15,12 @@ spring cloud 学习示例
 ### Feign 采用的是基于接口的注解,Feign 整合了ribbon(更简单)
 [spring-cloud-feign](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-feign)
 
+### 断路器
+[circuit_breaker_hystrix](http://projects.spring.io/spring-cloud/spring-cloud.html#_circuit_breaker_hystrix_clients)
+
+[feign-hystrix](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-feign-hystrix)
+
+[hystrix_dashboard](http://projects.spring.io/spring-cloud/spring-cloud.html#_circuit_breaker_hystrix_dashboard)
 
 
 # 小工具

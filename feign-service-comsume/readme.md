@@ -17,3 +17,19 @@ feign-service-comsume主要讲述如何通过Feign去消费服务。
     
 # 启动服务
 访问地址: http://localhost:8765/hi?name=forezp
+
+# 断路器
+[参考文档](https://www.fangzhipeng.com/springcloud/2017/06/04/sc04-hystrix.html)
+Feign是自带断路器的，在D版本的Spring Cloud中，它没有默认打开。需要在配置文件中配置打开它
+    
+    feign.hystrix.enabled=true
+## 测试断路器
+启动四servcie-feign工程，浏览器打开http://localhost:8765/hi?name=forezp,注意此时service-hi工程没有启动，网页显示：
+
+    sorry 熔断器 forezp
+
+打开service-hi工程，再次访问，浏览器显示：
+
+    hi forezp,i am from port:8762
+
+这证明断路器起到作用了。

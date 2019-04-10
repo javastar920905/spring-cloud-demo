@@ -41,3 +41,16 @@
 
 这就说明当 service-hi 工程不可用的时候，service-ribbon调用 service-hi的API接口时，会执行快速失败，直接返回一组字符串，而不是等待响应超时，这很好的控制了容器的线程阻塞。
   
+### 添加熔断器监控面板
+     <!-- 添加熔断器监控面板-->
+    <dependency>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-actuator</artifactId>
+    </dependency>
+    <dependency>
+        <groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-hystrix-dashboard</artifactId>
+    </dependency>
+    
+    @EnableHystrixDashboard main方法类上激活注解
+打开浏览器：访问http://localhost:8764/hystrix,界面如下：
