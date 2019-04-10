@@ -3,8 +3,17 @@ spring cloud 学习示例
 各个子项目的使用,参考各个子项目的readme
 
 [参考文档](https://www.fangzhipeng.com/springcloud/2017/06/01/sc01-eureka.html)
+
+### 注册中心与客户端注册服务
 [springcloud eureka server 官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-eureka-server)
+
 [springcloud eureka client 官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html#_service_discovery_eureka_clients)
+### 服务与服务的通讯，基于http restful
+[spring-cloud-ribbon](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-ribbon)
+
+[springcloud ribbon with eureka](http://blog.csdn.net/liaokailin/article/details/51469834)
+
+
 
 
 
@@ -14,7 +23,7 @@ spring cloud 学习示例
 # 子项目介绍
     eureka-server 启动一个注册中心(相当于zookeeper等)
     eureka-client 向注册中心注册服务(service提供者)
-    ribbon-comsumer 服务消费者和注册者(调用service 服务)
+    ribbon-comsumer 服务消费者和注册者(通过restTemplate调用service 服务)
     serice-feign 服务消费者和注册者(集成了ribbon)
     service-zuul Zuul的主要功能是路由转发和过滤器(类似nginx proxy_pass配置)
     config-server 配置中心服务器

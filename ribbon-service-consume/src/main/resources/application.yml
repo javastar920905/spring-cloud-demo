@@ -6,4 +6,4 @@ server:
   port: 8764
 spring:
   application:
-    name: ribbon-comsumer
+    name: ribbon-service-consume
