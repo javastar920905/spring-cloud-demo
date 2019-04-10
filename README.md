@@ -24,6 +24,8 @@ spring cloud 学习示例
 
 ### 配置中心...todo(有道雲筆記)
 [spring_cloud_config](http://projects.spring.io/spring-cloud/spring-cloud.html#_spring_cloud_config)
+[spring cloud config将配置存储在数据库中](https://www.fangzhipeng.com/springcloud/2019/02/21/config-jdbc.html)
+
 
 ### todo Spring Cloud Bus
 [Spring Cloud Bus](https://www.fangzhipeng.com/springcloud/2017/06/08/sc08-bus.html)
@@ -43,6 +45,8 @@ spring cloud 学习示例
 [high_availability_zones](http://projects.spring.io/spring-cloud/spring-cloud.html#_high_availability_zones_and_regions)
 
 ### Spring Cloud Gateway
+Spring Cloud Gateway是Spring Cloud官方推出的第二代网关框架，取代Zuul网关。
+网关作为流量的，在微服务系统中有着非常作用，网关常见的功能有路由转发、权限校验、限流控制等作用。
 [Spring Cloud Gateway](https://spring.io/guides/gs/gateway)
 
 
