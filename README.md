@@ -2,6 +2,12 @@
 spring cloud 学习示例
 各个子项目的使用,参考各个子项目的readme
 
+[参考文档](https://www.fangzhipeng.com/springcloud/2017/06/01/sc01-eureka.html)
+[springcloud eureka server 官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-eureka-server)
+[springcloud eureka client 官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html#_service_discovery_eureka_clients)
+
+
+
 # 小工具
 在线生成banner http://www.bootschool.net/ascii
 
