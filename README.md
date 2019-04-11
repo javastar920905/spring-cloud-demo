@@ -2,6 +2,10 @@
 spring cloud 学习示例
 各个子项目的使用,参考各个子项目的readme
 
+##要不要优先考虑 spring cloud alibaba???  
+spring cloud  组件的替换对于Eureka不再更新之后，到底选择使用哪个并没有完全的最优解(可惜的是Hystrix也宣布不再维护)
+[要不要优先考虑 spring cloud alibaba??? ](https://www.cnblogs.com/didispace/archive/2019/04/09/10675601.html)
+
 [参考文档](http://www.ityouknow.com/spring-cloud)
 [awesome-spring-cloud](https://github.com/ityouknow/awesome-spring-cloud)
 
