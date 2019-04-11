@@ -15,10 +15,12 @@ import org.springframework.util.StringUtils;
 @Log4j2
 @Import(SpringContextUtil.class)
 public class AppContextInitializer implements ApplicationContextInitializer {
+    private static final String config_server_name="configserver";
+    private static final String config_server_pwd="";
 
     @AllArgsConstructor
     enum Server{
-        register_server("eureka.client.serviceUrl.defaultZone","http://registerserver:8761/eureka/","默认注册中心地址,hosts中配置registerserver的实际ip地址"),
+        register_server("eureka.client.serviceUrl.defaultZone","http://peer1:8761/eureka/,http://peer2:8769/eureka/,http://peer3:8770/eureka/","默认注册中心地址,hosts中配置peer1,2,3的实际ip地址"),
         config_server("spring.cloud.config.uri","http://configserver:9999","默认配置中心地址,hosts中配置configserver的实际ip地址");
 
         public String key;
@@ -49,8 +51,8 @@ public class AppContextInitializer implements ApplicationContextInitializer {
             log.info("{} 使用外部指定configServer url:{}", appName, configServerUrl);
         }
 
-        System.setProperty("spring.cloud.config.username", "configserver");
-        System.setProperty("spring.cloud.config.password", "hcfAI123456");
+        System.setProperty("spring.cloud.config.username", config_server_name);
+        System.setProperty("spring.cloud.config.password",config_server_pwd);
         System.setProperty("xxl.job.admin.addresses", "http://xxljobadmin:10001/xxl-job-admin");
 
 

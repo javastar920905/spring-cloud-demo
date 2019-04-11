@@ -23,7 +23,7 @@ public class CorsConfig {
 
     @Bean
     @Order(-99)
-    public CorsFilter corsFilter(@Value("${spring.mvc.allowed.origin}") String allowOrigin) {
+    public CorsFilter corsFilter(@Value("${spring.mvc.allowed.origin:*}") String allowOrigin) {
         UrlBasedCorsConfigurationSource source = new UrlBasedCorsConfigurationSource();
         source.registerCorsConfiguration("/**", buildConfig(allowOrigin)); // 4
         return new CorsFilter(source);
