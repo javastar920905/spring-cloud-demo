@@ -1,4 +1,6 @@
 # 参考文档
+[Spring Cloud入门到实战系列教程](http://cxytiandi.com/blog/detail/17470)
+[服务网关 Spring Cloud GateWay 入门](http://www.ityouknow.com/springcloud/2018/12/12/spring-cloud-gateway-start.html)
 [Spring Cloud Gateway 初体验](https://www.fangzhipeng.com/springcloud/2018/11/06/sc-f-gateway1.html)
 在spring cloud gateway中有2个重要的概念predicates和filters
 [predicate简介-todo](https://www.fangzhipeng.com/springcloud/2018/12/05/sc-f-gateway2.html)

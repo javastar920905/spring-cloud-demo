@@ -1,4 +1,5 @@
 # 参考文档
+[入门文档-开启健康检查](https://blog.battcn.com/2017/07/25/springcloud/dalston/spring-cloud-discovery/)
 [方志朋的博客](https://www.fangzhipeng.com/springcloud/2017/06/01/sc01-eureka.html)
 
 # idea中 使用spring initial 创建项目

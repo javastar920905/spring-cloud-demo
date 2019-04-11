@@ -1,4 +1,5 @@
 # 参考文档
+[参考文档](http://www.ityouknow.com/springcloud/2018/01/20/spring-cloud-zuul.html)
 [博客](https://www.fangzhipeng.com/springcloud/2017/06/05/sc05-zuul.html)
 
 ## 微服务组件的配合方式
