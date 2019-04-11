@@ -2,30 +2,14 @@
 spring cloud 学习示例
 各个子项目的使用,参考各个子项目的readme
 
-[参考文档](https://www.fangzhipeng.com/springcloud/2017/06/01/sc01-eureka.html)
-
-### 注册中心与客户端注册服务
-[springcloud eureka server 官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-eureka-server)
-
-[springcloud eureka client 官方文档](http://projects.spring.io/spring-cloud/spring-cloud.html#_service_discovery_eureka_clients)
-
-### 服务与服务的通讯，基于http restful
-[spring-cloud-ribbon](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-ribbon)
-
-[springcloud ribbon with eureka](http://blog.csdn.net/liaokailin/article/details/51469834)
-
-### Feign 采用的是基于接口的注解,Feign 整合了ribbon(更简单)
-[spring-cloud-feign](http://projects.spring.io/spring-cloud/spring-cloud.html#spring-cloud-feign)
+[参考文档](http://www.ityouknow.com/spring-cloud)
+[awesome-spring-cloud](https://github.com/ityouknow/awesome-spring-cloud)
 
 ### 熔断器
 [查看分支spring-cloud-hystrix](https://github.com/javastar920905/spring-cloud-demo/tree/spring-cloud-hystrix)
-### zuul 路由和過濾器驗證(nginx) 
-[router_and_filter_zuul](http://projects.spring.io/spring-cloud/spring-cloud.html#_router_and_filter_zuul)
 
 ### 配置中心...todo(有道雲筆記)
-[spring_cloud_config](http://projects.spring.io/spring-cloud/spring-cloud.html#_spring_cloud_config)
 [spring cloud config将配置存储在数据库中](https://www.fangzhipeng.com/springcloud/2019/02/21/config-jdbc.html)
-
 
 ### todo Spring Cloud Bus
 [Spring Cloud Bus](https://www.fangzhipeng.com/springcloud/2017/06/08/sc08-bus.html)
@@ -33,23 +17,18 @@ spring cloud 学习示例
 
 ### todo  Spring Cloud Sleuth
 服务追踪组件zipkin，Spring Cloud Sleuth集成了zipkin组件
-[Spring Cloud Sleuth-博客](https://www.fangzhipeng.com/springcloud/2017/06/09/sc09-sleuth.html)
-
-[spring-cloud-sleuth](https://github.com/spring-cloud/spring-cloud-sleuth)
-
 [利用Zipkin对Spring Cloud应用进行服务追踪分析](https://yq.aliyun.com/articles/60165)
 
 [Spring Cloud Sleuth使用简介](http://blog.csdn.net/u010257992/article/details/52474639)
 
 ### 服务注册中心高可用
-[high_availability_zones](http://projects.spring.io/spring-cloud/spring-cloud.html#_high_availability_zones_and_regions)
+注册中心这么关键的服务，如果是单点话，遇到故障就是毁灭性的
+[high_availability_zones](http://www.ityouknow.com/springcloud/2017/05/10/springcloud-eureka.html)
 
 ### Spring Cloud Gateway
 Spring Cloud Gateway是Spring Cloud官方推出的第二代网关框架，取代Zuul网关。
 网关作为流量的，在微服务系统中有着非常作用，网关常见的功能有路由转发、权限校验、限流控制等作用。
 [Spring Cloud Gateway](https://spring.io/guides/gs/gateway)
-
-
 
 ### docker,docker-compose 编排服务
 [docker部署springcloud工程](https://www.fangzhipeng.com/springcloud/2017/06/11/sc11-docker.html)

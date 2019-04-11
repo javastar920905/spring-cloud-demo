@@ -1,8 +1,13 @@
 server:
   port: 8769
 
+# 设置profile激活当前配置  -spring.profiles.active=peer2
 spring:
+  application:
+    name: eureka-server
   profiles: peer2
+
+# 双节点的注册中心的搭建 节点peer2,serviceUrl指向peer1:8761
 eureka:
   instance:
     hostname: peer2

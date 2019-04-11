@@ -2,7 +2,7 @@
 [博客-2](https://www.fangzhipeng.com/springcloud/2017/06/01/sc01-eureka.html)
 
 # 創建項目
-通过注解@EnableEurekaClient 表明自己是一个eurekaclient.
+通过注解@EnableEurekaClient 表明自己是一个eurekaclient(服务提供方).
 
 仅仅@EnableEurekaClient是不够的，还需要在配置文件中注明自己的服务注册中心的地址
 

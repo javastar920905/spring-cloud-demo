@@ -1,11 +1,16 @@
 server:
   port: 8761
 
+# 设置profile激活当前配置  -spring.profiles.active=peer1
 spring:
-  profiles: peer1
+  application:
+    name: eureka-server
+    profiles: peer1
+
+# 双节点的注册中心的搭建 节点peer1,serviceUrl指向peer2:8769
 eureka:
   instance:
     hostname: peer1
   client:
     serviceUrl:
-      defaultZone: http://peer2:8769/eureka/
+      defaultZone: http://peer2:8769/eureka/,http://peer3:8770/eureka/

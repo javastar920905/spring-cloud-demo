@@ -15,10 +15,9 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <java.version>1.8</java.version>
-        <!--版本控制-->
-        <dockerfile.tag.version>latest</dockerfile.tag.version>
 
         <!--maven docker 插件-->
+        <dockerfile.tag.version>latest</dockerfile.tag.version>
         <dockerfile.maven.plugin.version>1.4.7</dockerfile.maven.plugin.version>
         <docker.registry>docker-registry:5000</docker.registry>
     </properties>
@@ -29,11 +28,10 @@
         <module>service-hi</module>
         <module>ribbon-service-consume</module>
         <module>feign-service-comsume</module>
-        <module>service-gateway</module>
+        <!--<module>service-gateway</module>-->
         <module>server-zipkin</module>
         <module>config-server</module>
         <module>config-client</module>
-
 
         <!--自己编写starter示例-->
         <module>spring-cloud-eureka</module>
@@ -41,6 +39,8 @@
         <module>spring-boot-common</module>
         <module>spring-boot-custom</module>
 
+        <!--配置中心 服务发现的通用依赖-->
+        <module>spring-cloud-common</module>
     </modules>
 
     <dependencyManagement>

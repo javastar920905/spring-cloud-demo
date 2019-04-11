@@ -1,0 +1,23 @@
+# 通过eureka.client.registerWithEureka：false和fetchRegistry：false来表明自己是一个eureka server.
+#server:
+#  port: 8888
+#
+#spring:
+#  application:
+#    name: eureka-server
+#
+#eureka:
+#  instance:
+#    hostname: localhost
+#  client:
+#    registerWithEureka: false
+#    fetchRegistry: false
+#    serviceUrl:
+#      defaultZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+
+
+# 默认激活配置peer1
+spring:
+  profiles:
+    active: peer1
+
