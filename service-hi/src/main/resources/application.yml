@@ -1,19 +1,23 @@
-# 需要指明spring.application.name,这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name 。
-eureka:
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:8761/eureka/
-server:
-  port: 8762
+## 需要指明spring.application.name,这个很重要，这在以后的服务与服务之间相互调用一般都是根据这个name 。
+#eureka:
+#  client:
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka/,http://localhost:8769/eureka/,http://localhost:8770/eureka/
+#server:
+#  port: 8762
+#spring:
+#  application:
+#    name: service-hi
+#  # 调用链追踪
+#  sleuth:
+#    web:
+#      client:
+#        enabled: true
+#    sampler:
+#      probability: 1.0 # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
+#  zipkin:
+#    base-url: http://localhost:9411/ # 指定了 Zipkin 服务器的地址
+
 spring:
-  application:
-    name: service-hi
-  # 调用链追踪
-  sleuth:
-    web:
-      client:
-        enabled: true
-    sampler:
-      probability: 1.0 # 将采样比例设置为 1.0，也就是全部都需要。默认是 0.1
-  zipkin:
-    base-url: http://localhost:9411/ # 指定了 Zipkin 服务器的地址
+  profiles:
+    active: service1
